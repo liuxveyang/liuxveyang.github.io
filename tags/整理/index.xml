@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>整理 on LXY Site</title>
-    <link>http://liuxveyang.github.io/tags/%E6%95%B4%E7%90%86/</link>
+    <link>https://liuxveyang.github.io/tags/%E6%95%B4%E7%90%86/</link>
     <description>Recent content in 整理 on LXY Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright &amp;copy; 2018 (LXY). All Rights Reserved.</copyright>
     <lastBuildDate>Sun, 29 Apr 2018 10:25:30 +0800</lastBuildDate>
     
-	<atom:link href="http://liuxveyang.github.io/tags/%E6%95%B4%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liuxveyang.github.io/tags/%E6%95%B4%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>整理博客</title>
-      <link>http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 29 Apr 2018 10:25:30 +0800</pubDate>
       
-      <guid>http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/</guid>
       <description>可算想起来整理一下博客了。本来想把以前的博客都删掉的，后来想想还是算了，毕竟还是不能忘记历史啊（2333 不过看几年前写的东西真是好羞耻啊。。
 我还是决定迁移回 Hugo，由于博客一共有 400 多篇，hexo 生成速度实在是太慢。主要是三个需要搞：
  部分博客原先使用的是 Jekyll，这些需要把文件头的 layout: 条目删掉； 部分博客文件头的的 tags: 后面没有中括号 []，这些要把中括号加上； 选一个主题；  删除 layout: 很简单啦，sed 一把梭：</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>养成整理的习惯</title>
-      <link>http://liuxveyang.github.io/posts/2016-12-23-organize-computer/</link>
+      <link>https://liuxveyang.github.io/posts/2016-12-23-organize-computer/</link>
       <pubDate>Fri, 23 Dec 2016 20:24:14 +0800</pubDate>
       
-      <guid>http://liuxveyang.github.io/posts/2016-12-23-organize-computer/</guid>
+      <guid>https://liuxveyang.github.io/posts/2016-12-23-organize-computer/</guid>
       <description>我的电脑空间不够用了。整理的时候我才发现，我的目录是多么混乱。很多可能用到的、再也用不到的、以前用过的、很久都没有用的各种各样的文档，塞在各种各样的目录下面。有一些照片，很久没有看过，也没有想过要备份一下。很多软件，即使一年也没有用过，也还是在那里。不知道何年何月才有机会打开。很多截图，用过了即使知道以后再也不用了也没想过要删除。网络上下载的图片，没有收藏价值的也从来没有想过要删除。网络上下载的各种文档，没有想过要按照主题分类管理一下。写过的测试程序，有的时候懒得同步到Gitlab、Github或者各种网盘上，就临时放在了本地，从来没有整理过。
 当然，移动硬盘里的情况更是惨不忍睹。很多备份，没有分类，还有很多奇怪的重复。
 在电脑里面，之前因为想要一个新的环境，就新建了几个用户。现在看来是错误的选择。这更加重了电脑的混乱。我的几个旧电脑都是这样的情况，尤其是Linux系统，更是混乱。

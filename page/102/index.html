@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
+    <link rel="stylesheet" href="https://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='https://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='https://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxveyang.github.io/img/header.jpg')
+  style="background:url('https://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
+    <a class="site-title" href="https://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,50 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu4484-hailstone-hotpo-%E6%B0%B4%E9%A2%98/"> hdu4484 Hailstone HOTPO ——水题
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Mar 10, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
-
-
-      
-      
-</div>
-
-  题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=4484 题目思路： 直接模拟即可
-#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; using namespace std; int cal(int n) { int Max = n; while (n!
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/hdu4484-hailstone-hotpo-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/casting/"> Casting
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Mar 10, 2013
-      
-      
-      
-</div>
-
-  #include &lt;cstdio&gt; #include &lt;cstring&gt; #include &lt;cmath&gt; using namespace std; char a[10000000+10]; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;in&quot;, &quot;r&quot;, stdin); #endif int t; scanf(&quot;%d&quot;, &amp;t); while (t--){ int s, b; scanf(&quot;%d%d%s&quot;, &amp;s, &amp;b, a); int len = strlen(a), po = 1, temp = 0; for (int i = len-1; i &gt;= 0; --i){ temp += (a[i]-'0') * po; temp %= (b-1); } printf(&quot;%d %d\n&quot;, s, temp); } return 0; }  求在某个进制的数字的余数，没卡。
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/mystery/"> Mystery
+    <a href="https://liuxveyang.github.io/posts/mystery/"> Mystery
 
  </a>
   </h1>
@@ -130,7 +87,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/poj1579-function-run-fun/"> poj1579 Function Run Fun
+    <a href="https://liuxveyang.github.io/posts/poj1579-function-run-fun/"> poj1579 Function Run Fun
 
  </a>
   </h1>
@@ -139,7 +96,7 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/poj">POJ</a>
 
 
       
@@ -150,7 +107,58 @@
 #include &lt;cstdio&gt; #include &lt;cstring&gt; using namespace std; int ww[22][22][22]; int w(int a, int b, int c){ if (a &lt;= 0 || b &lt;= 0 || c &lt;= 0) return 1; if (a &gt; 20 || b &gt; 20 || c &gt; 20) return w(20, 20, 20); if (ww[a][b][c] &gt; 0) return ww[a][b][c]; if (a &lt; b &amp;&amp; b &lt; c) return ww[a][b][c] = w(a, b, c-1) + w(a, b-1, c-1) - w(a, b-1, c); else return ww[a][b][c] = w(a-1, b, c) + w(a-1, b-1, c) + w(a-1, b, c-1) - w(a-1, b-1, c-1); } int main(void){ int a, b, c; #ifndef ONLINE_JUDGE freopen(&quot;poj1759.
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/poj1579-function-run-fun/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/poj1579-function-run-fun/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/poj-2528-mayors-posters/"> poj 2528 Mayor&#39;s posters
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Mar 5, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/poj">POJ</a>
+
+
+      
+      
+</div>
+
+  Description Input Output Sample Input Sample Output
+#include &lt;cstdio&gt; #include &lt;cstring&gt; #include &lt;algorithm&gt; using namespace std; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 const int maxn = 111111; int li[maxn], ri[maxn], x[maxn*3], col[maxn&lt;&lt;4], cnt; bool hash[maxn]; void PushDown(int rt){ if (col[rt] !
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/poj-2528-mayors-posters/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/poj-3468-a-simple-problem-with-integers/"> poj 3468 A Simple Problem with Integers
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Mar 4, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/poj">POJ</a>
+
+
+      
+      
+</div>
+
+  A Simple Problem with Integers Time Limit: 5000MS Memory Limit: 131072K Total Submissions:40260 Accepted: 11693 Case Time Limit: 2000MS
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/poj-3468-a-simple-problem-with-integers/"> [Read more...] </a>
   
 </article>
 
@@ -194,7 +202,7 @@
             
           
           <li>
-            <a href="http://liuxveyang.github.io/index.xml">
+            <a href="https://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -227,7 +235,7 @@
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="https://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -239,31 +247,31 @@
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="https://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/clustering/">
+        <a href="https://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -291,8 +299,6 @@
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
-    
-    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -439,7 +445,7 @@
 
     
 
-    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='https://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>

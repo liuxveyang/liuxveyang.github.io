@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
+    <link rel="stylesheet" href="https://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='https://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='https://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxveyang.github.io/img/header.jpg')
+  style="background:url('https://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
+    <a class="site-title" href="https://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,32 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/2013%E5%B9%B44%E6%9C%8815%E6%97%A5-%E6%99%B4/"> 2013年4月15日 晴
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 16, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/run">run</a>
-
-
-      
-      
-</div>
-
-  13日 晴 那天去中南比赛，回来比较累，下午睡了一觉，晚上去跑步，然后喝了一口水，我去……跑的过程中各种纠结，，唉，全程不舒服，走走停停，很不爽。 14日 晴 天气比较好，可惜，晚上校队有讨论，回到宿舍已经10点半了，这个时候的湘江边几乎没什么人了，貌似还有点儿害怕~长沙这种，地方嘛，^_^ 跑一半路程就回来了，一点儿也没意思，o(╯□╰)o 后来权当散步了。。。。 最近几天貌似状态不好啊。 15日 晴，小雨 晚上去跑步，开始有一哥们儿在我后面跑，赶脚好有动力，O(∩_∩)O哈哈~所以开始速度比较快，跑到后期那哥们儿从另一条路走了，每个人的路线都不一样啊，后来一直自己跑，回来的路上，突然下起了雨，悲剧了，还是雨点儿特别大的那种，然后继续跑，最担心的是手机和P3进水了……o(╯□╰)o不过还好，不到几分钟，雨就停了，后来觉得没什么意思，走走停停地回来了…… 今天为yr酱他当初每天做几道题，不算水题，答曰：10+。我……难道这就是境界的差别么？唉，不可同日而语 难道大神们都是这么练出来的么？好吧，ORZ……加油吧，显然是做的太慢了。。 妈妈说，在ACM界有三种人可以生存下来：1.
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/2013%E5%B9%B44%E6%9C%8815%E6%97%A5-%E6%99%B4/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/uva10591---happy-number-%E6%B0%B4%E9%A2%98/"> uva10591 - Happy Number ——水题
+    <a href="https://liuxveyang.github.io/posts/hdu2098-%E4%B8%8D%E8%A6%8162-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> hdu2098 不要62 ——数位DP入门题
 
  </a>
   </h1>
@@ -104,34 +79,9 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/uva">Uva</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">Hdu</a>
 
-
-      
-      
-</div>
-
-  题目链接：http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1532 题目大意： 给一个数字，各位数字的平方和相加，依次循环，如果最后得到1，那么这个数字就是happy number，如果不能，就是unhappy number。 思路： 因为题目范围只有10^9，所以可以暴力求解，数字的平方和最大是9*9*9=729，可以用一个数组标记这个数字是否被访问过。 #include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int visit[1000]; int solve(int n){ int m = 0; while (n){ m += (n%10)*(n%10); n /= 10; } return m; } int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;uva10591.
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/uva10591---happy-number-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu2098-%E4%B8%8D%E8%A6%8162-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> hdu2098 不要62 ——数位DP入门题
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 15, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
-
-    <a class="tag" href="http://liuxveyang.github.io/tags/dp">DP</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
 
 
       
@@ -142,13 +92,13 @@
 #include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; LL dp[8][3]; int a[8], b[8]; bool flag; int solve(int k){ int len = 0; LL temp = k; while (k){ a[++len] = k % 10; k /= 10; } LL ans = 0; int last = 0; flag = false; a[len+1] = 0; for (int i = len; i &gt;= 1; --i){ ans += dp[i-1][2] * a[i]; if (flag){ans += dp[i-1][0] * a[i];} //高位位填4，低位的不管 if (!
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/hdu2098-%E4%B8%8D%E8%A6%8162-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/hdu2098-%E4%B8%8D%E8%A6%8162-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu1202-the-calculation-of-gpa-%E6%B0%B4%E9%A2%98/"> hdu1202 The calculation of GPA ——水题
+    <a href="https://liuxveyang.github.io/posts/hdu1202-the-calculation-of-gpa-%E6%B0%B4%E9%A2%98/"> hdu1202 The calculation of GPA ——水题
 
  </a>
   </h1>
@@ -157,7 +107,7 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">Hdu</a>
 
 
       
@@ -168,7 +118,62 @@
 #include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;hdu1202.
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/hdu1202-the-calculation-of-gpa-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/hdu1202-the-calculation-of-gpa-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/uestc1307-windy%E6%95%B0-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> uestc1307 windy数 ——数位DP入门题
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 15, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/uestc">uestc</a>
+
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://acm.uestc.edu.cn/problem.php?pid=1307  题目大意： 不含前导零且相邻两个数字之差至少为2的正整数被称为windy数。windy想知道，在A和B之间，包括A和B，总共有多少个windy数？ 思路： 具体解释代码中有。看的这个人的代码：http://blog.csdn.net/acm_cxlove/article/details/7819907# 然后自己又分析了一下，终于明白了。
+#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int dp[15][10], a[15]; // 这个函数求的是区间（0，n）内的个数 LL solve(int n){ int len = 0; LL ans = 0; while (n){ a[++len] = n % 10; n /= 10; }int i, j; a[len+1] = 0; // 长度为1~len-1 for (i = 1; i &lt;= len-1; ++i) for (j = 1; j &lt;= 9; ++j) // 注意j从1开始，因为最高位不能是0！ ans += dp[i][j]; // debug了好久！！！ // 长度为len，但是最高位是a[len] - 1 for (i = 1; i &lt;= a[len] - 1; ++i) ans += dp[len][i]; // 长度为len，但是最高位是a[len] for (i = len - 1; i &gt;= 1; --i){ for (j = 0; j &lt; a[i]; ++j) if (abs(a[i+1] - j) &gt;= 2) ans += dp[i][j]; if (abs(a[i] - a[i+1]) &lt; 2) break; } return ans; } int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;uestcoj1307.
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/uestc1307-windy%E6%95%B0-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/hdu3555-bomb-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> hdu3555 Bomb ——数位DP入门题
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 14, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">hdu</a>
+
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=3555 题目大意： 给一个数字n,范围在1~2^63-1，求1~n之间含有49的数字有多少个。 思路： 经典的数位DP，学习了一下，看的别人的代码：http://www.cnblogs.com/luyi0619/archive/2011/04/29/2033117.html 状态转移： dp[i][0]代表长度为 i 并且不含有49的数字的个数； dp[i][1]代表长度为 i 并且不含有49，但是最高位是9的数字的个数； dp[i][2]代表长度为 i 并且含有49的数字的个数。 数组 a[i] 从低位到高位存储 n 的每一位数字。 则：dp[i][0] = dp[i-1][0] * a[i] - dp[i-1][1]; 表示长度为 i 的不含有49的数字的个数等于长度为 i - 1 的不含有49的数字的个数*当前的数字，因为这个位置可以填0~a[i] - 1，然后再减去长度为 i - 1 的最高位是9的数字的个数，因为如果长度为 i - 1 的最高位是9的话，那么高一位就不能填4了，否则就组成了49。 dp[i][1] = dp[i-1][0]; 表示长度为 i 的并且不含有49同时最高位是9的数字的个数等于，长度为 i - 1 的不含有49的数字的个数，因为只要在它的高一位加上一个9就可以了。 dp[i][2] = dp[i-1][2] * a[i] + dp[i-1][1]; 表示长度为 i 的含有49的数字的个数等于，长度为 i - 1 的数字的个数*当前的数字，再加上长度为 i - 1 的并且不含有49同时最高位是9的数字的个数，因为这个时候，只要在高一位加上一个4就可以了，这样在最高的两位就组成了一个49。 做法是从数字的高位向低位扫描，对于第 i 位， 其实这个题目还有一个地方不懂，就是为什么要在输入 n 后，要把 n 加1。想了一下特例，比如输入49，按照上面的做法，在第3步，并不会把符合条件的数字加上，因为4不是严格大于4，最后的执行结果就是0，但是如果加上1之后，n就变成了50，这样第3步恰好可以执行，结果就是正确的了。但是对于一般的情况，还是不知道为什么要把n加1……o(╯□╰)o 这题还是卡了很久，照着别人的代码敲的，死活过不了，然后又找了一份代码：http://blog.
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/hdu3555-bomb-%E6%95%B0%E4%BD%8Ddp%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
@@ -212,7 +217,7 @@
             
           
           <li>
-            <a href="http://liuxveyang.github.io/index.xml">
+            <a href="https://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -245,7 +250,7 @@
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="https://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -257,31 +262,31 @@
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="https://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/clustering/">
+        <a href="https://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -309,8 +314,6 @@
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
-    
-    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -457,7 +460,7 @@
 
     
 
-    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='https://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>

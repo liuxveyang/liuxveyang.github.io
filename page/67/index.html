@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
+    <link rel="stylesheet" href="https://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='https://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='https://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxveyang.github.io/img/header.jpg')
+  style="background:url('https://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
+    <a class="site-title" href="https://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,51 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/%E8%AE%BE%E7%BD%AEzsh%E4%B8%BA%E7%B3%BB%E7%BB%9F%E9%BB%98%E8%AE%A4shell/"> 设置zsh为系统默认shell
-
- </a>
-  </h1>
-  <div class="article-meta">
-      May 24, 2013
-      
-      
-      
-</div>
-
-  whereis zsh 就会显示zsh的路径，一般是 /bin/zsh 然后输入 chsh -s /bin/zsh 会提示输入密码，然后重新登录就好了～ 同样，如果设置其它的shell，也是类似的做法。
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu2069-coin-change-dp/"> hdu2069 Coin Change ——DP
-
- </a>
-  </h1>
-  <div class="article-meta">
-      May 24, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
-
-    <a class="tag" href="http://liuxveyang.github.io/tags/dp">DP</a>
-
-
-      
-      
-</div>
-
-  题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=2069 题目大意： 给一个数字，用1, 5, 10， 25, 50 这五种硬币，最多用100枚，有多少种组合方式。 题目思路： 这道题和之前的题目不同，有了硬币个数的限制，所以需要加上一维表示硬币的个数就可以了。d[i][j]表示价值为 i 的最多用 j 枚硬币有多少中组合方式。很多人用母函数做，感觉DP做简单多了…… 参考博客：http://www.
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/hdu2069-coin-change-dp/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/2013%E5%B9%B45%E6%9C%8823%E6%97%A5-%E6%99%B4/"> 2013年5月23日 晴
+    <a href="https://liuxveyang.github.io/posts/2013%E5%B9%B45%E6%9C%8823%E6%97%A5-%E6%99%B4/"> 2013年5月23日 晴
 
  </a>
   </h1>
@@ -131,7 +87,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu1398-square-coins-dp/"> hdu1398 Square Coins ——DP
+    <a href="https://liuxveyang.github.io/posts/hdu1398-square-coins-dp/"> hdu1398 Square Coins ——DP
 
  </a>
   </h1>
@@ -140,9 +96,9 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">Hdu</a>
 
-    <a class="tag" href="http://liuxveyang.github.io/tags/dp">DP</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
 
 
       
@@ -150,6 +106,60 @@
 </div>
 
   题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=1398 题目大意： 给一个数字，不大于300，求有多少种用完全平方数表示这个数字的方法 题目思路： 方法跟hdu1283一样一样的……只需要把那道题目的代码稍微改一下就可以过了 #include &lt;cstdio&gt; #include &lt;cmath&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; const int MAX = 32768+10; long long d[MAX]; void solve() { int n, i, j; while (~scanf(&quot;%d&quot;, &amp;n) &amp;&amp; n) { memset(d, 0, sizeof(d)); d[0] = 1; for (i = 1; i &lt;= floor(sqrt(n)); ++i) { for (j = i*i; j &lt;= n; ++j) { d[j] += d[j-i*i]; } } printf(&quot;%lld\n&quot;, d[n]); } } int main(void) { solve(); return 0; }   因为题目的范围很小嘛，只有300。 
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/hdu1284-%E9%92%B1%E5%B8%81%E5%85%91%E6%8D%A2%E9%97%AE%E9%A2%98-dp/"> hdu1284 钱币兑换问题 ——DP
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      May 23, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">Hdu</a>
+
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=1284 题目大意： 中文题…… 题目思路： 只有3个硬币，范围是32768，可以一个一个枚举硬币，如果只放价值为1的硬币，从d[1]递推到d[n]；如果再加上价值为2的硬币，那么就从d[2]递推到d[n]；在加上价值为3的硬币，就从d[3]递推到d[n].递推公式是d[j] = d[j] + d[j-i]； d[j]表示j有几种只用1，2, 3这三个数字的拆分方法，i 就是硬币的价值。 #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; const int MAX = 32768+10; long long d[MAX]; void solve() { int n, i, j; while (~scanf(&quot;%d&quot;, &amp;n)) { memset(d, 0, sizeof(d)); d[0] = 1; for (i = 1; i &lt;= 3; ++i) { for (j = i; j &lt;= n; ++j) { d[j] += d[j-i]; } } printf(&quot;%lld\n&quot;, d[n]); } } int main(void) { solve(); return 0; }   参考博客：http://www.
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/hdu1284-%E9%92%B1%E5%B8%81%E5%85%91%E6%8D%A2%E9%97%AE%E9%A2%98-dp/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/hdu1028-ignatius-and-the-princess-iii-dp/"> hdu1028 Ignatius and the Princess III ——DP
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      May 23, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/hdu">Hdu</a>
+
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://acm.hdu.edu.cn/showproblem.php?pid=1028 题目大意：　整数拆分，给一个整数n,求它有多少种拆分方法。 题目思路： 做法一： d[i][j]表示把整数 i 拆成最多 j 个数字所具有的方法数。那么 if (i &gt;ｊ)　d[i][j] = d[i-j][j] + d[i][j-1]; 意思就是如果i&gt;j，那么有两种方式：一种是先把i里面分理处j个1，然后再把i-j拆成最多i-j个数字；另一种是把i拆分成最多j-1个数字。 if (i &lt; j) d[i][j] = d[i][i]; 意思就是如果i&lt;j，那么这种情况和把数字i最多拆成i个数字的是一样的。 if (i == j) d[i][j] = d[i][j-1] + 1; 意思就是如果i==j，那么可以把数字i拆分成j-1个数字，也可以把数字i拆分成i个1（这个就是那个1的意义） #include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; using namespace std; #define LL long long int d[140][140], n; void init() { while (~scanf(&quot;%d&quot;, &amp;n)) { int i, j; memset(d, 0, sizeof(d)); for (i = 0; i &lt;= n; ++i) d[i][1] = d[1][i] = 1; for (i = 2; i &lt;= n; ++i) { for (j = 1; j &lt;= n; ++j) { if (i &gt; j) d[i][j] = d[i-j][j] + d[i][j-1]; else if (i == j) d[i][j] = 1 + d[i][j-1]; else d[i][j] = d[i][i]; } } cout &lt;&lt; d[n][n] &lt;&lt; endl; } } int main(void) { init(); return 0 ; }   剩下的就是考虑一下边界，比如当 i 或者 j 等于1的时候，显然都是只有一种拆分情况。 做法二： 借用hdu1284这道题的方法，也可以做这道题目，因为n的范围是120嘛,两个算法的复杂度都是O(n^2)的，当然可以了。只需要把hdu1284的代码里面把3改成n，这题就过了…… #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; const int MAX = 32768+10; long long d[MAX]; void solve() { int n, i, j; while (~scanf(&quot;%d&quot;, &amp;n)) { memset(d, 0, sizeof(d)); d[0] = 1; for (i = 1; i &lt;= n; ++i) { for (j = i; j &lt;= n; ++j) { d[j] += d[j-i]; } } printf(&quot;%lld\n&quot;, d[n]); } } int main(void) { solve(); return 0; }   优化到了一维数组，这个方法碉堡了…… 参考博客：http://www.
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/hdu1028-ignatius-and-the-princess-iii-dp/"> [Read more...] </a>
   
 </article>
 
@@ -193,7 +203,7 @@
             
           
           <li>
-            <a href="http://liuxveyang.github.io/index.xml">
+            <a href="https://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -226,7 +236,7 @@
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="https://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -238,31 +248,31 @@
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="https://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/clustering/">
+        <a href="https://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -290,8 +300,6 @@
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
-    
-    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -438,7 +446,7 @@
 
     
 
-    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='https://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>

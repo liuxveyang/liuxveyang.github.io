@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
+    <link rel="stylesheet" href="https://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='https://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='https://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxveyang.github.io/img/header.jpg')
+  style="background:url('https://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
+    <a class="site-title" href="https://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,58 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/%E6%8C%87%E9%92%88%E7%9A%84%E9%97%AE%E9%A2%98/"> 指针的问题
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 10, 2014
-      
-      
-      
-</div>
-
-  这些细节的问题涉及到语言内部的实现和处理，现在还是没有太懂。
-尤其是关于const的问题。
-比如说下面的代码：
-#include &lt;stdio.h&gt; int main(void) { const int x = 1; int y = 3; int * p = (int *)&amp;x; *p = 3; printf(&quot;x = %d\n&quot;, x); printf(&quot;*p = %d\n&quot;, *p); if (y == true) printf(&quot;true\n&quot;); return 0; } /* output: x = 1 *p = 3 */  也就是说，const类型的整型变量的值并没有改变。印象中好像是const类型的变量在内存中存放的位置和普通变量不一样之类的……当初也想到这个了，笔试的时候不太确定。整道题做错了。。。白写了那么多啊囧。
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/%E6%8C%87%E9%92%88%E7%9A%84%E9%97%AE%E9%A2%98/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/codeforces-239-long-path/"> CodeForces 239 Long Path
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Mar 31, 2014
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/dp-codeforce">DP CodeForce</a>
-
-
-      
-      
-</div>
-
-  每个房间有两个单向出口，就是只能进不能出，这个开始理解错了。
-进入房间的时候，首先要在屋顶画一个叉叉，如果画完之后叉叉的个数是奇数的话：那么就从第二条出口出去，会到达ｐ[ i ]房间；如果叉叉的个数是偶数的话，那么就到下一个房间。
-问从1到ｎ+1房间一共走了多少个这样的单项出口。
-有一个条件：1 &lt;= p[ i ] &lt;= i 这个开始也没有注意到==。这是个很重要的条件。
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/codeforces-239-long-path/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/codeforces-239a-triangle/"> CodeForces 239A. Triangle
+    <a href="https://liuxveyang.github.io/posts/codeforces-239a-triangle/"> CodeForces 239A. Triangle
 
  </a>
   </h1>
@@ -130,7 +79,7 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/codeforces">CodeForces</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/codeforces">CodeForces</a>
 
 
       
@@ -146,13 +95,13 @@
 如何使得边不和坐标轴平行？ 要保证要求的另外两个点的横坐标或者纵坐标不能相等。
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/codeforces-239a-triangle/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/codeforces-239a-triangle/"> [Read more...] </a>
   
 </article>
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/longest-increasing-subsequence/"> Longest Increasing Subsequence
+    <a href="https://liuxveyang.github.io/posts/longest-increasing-subsequence/"> Longest Increasing Subsequence
 
  </a>
   </h1>
@@ -161,7 +110,7 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/dp">DP</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/dp">DP</a>
 
 
       
@@ -176,7 +125,55 @@
 DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max{DP[ j ] + 1 | j &lt; i &amp;&amp; a[ j ] &lt; a[ i ]}  代码：
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/longest-increasing-subsequence/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/longest-increasing-subsequence/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/"> Vim插件管理
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Mar 4, 2014
+      
+      
+      
+</div>
+
+  话说，用Git和pathogen管理Vim插件再方便不过了！真是神器啊，以后再也不用因为换电脑或者系统重新配置Vim了！
+首先得学会用Git
+安装Git
+sudo apt-get install git  基本设置
+$ git config --global user.
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/pe%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0ing/"> PE文件格式 持续更新ing
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Feb 27, 2014
+      
+      
+      
+</div>
+
+  PE文件就是exe文件和dll文件，前者是可执行文件，后者是动态连接库文件。两者的区别仅仅是字面上的，唯一的区别就是内部的一个字段标识这个文件是exe文件还是dll文件。
+对于PE文件格式，举一个例子来说明比较清楚：
+　比如我打开一个.exe文件，gvim.exe 也就是gvim的安装程序
+　首先就是DOS头：前两个字节，5A4Dh 表示MZ，这只是一个DOS可执行文件标记，表示这个文件是一个可执行文件。
+　DOS头的最后一个Double word 在地址3ch处，可以发现它的值是：0000 00D8 h 它指向真正的PE头。
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/pe%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0ing/"> [Read more...] </a>
   
 </article>
 
@@ -220,7 +217,7 @@ DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max
             
           
           <li>
-            <a href="http://liuxveyang.github.io/index.xml">
+            <a href="https://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -253,7 +250,7 @@ DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="https://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -265,31 +262,31 @@ DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="https://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/clustering/">
+        <a href="https://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -317,8 +314,6 @@ DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
-    
-    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -465,7 +460,7 @@ DP[ i ] 是以a[ i ] 为结尾的最长上升子序列的长度。 DP[ i ] = max
 
     
 
-    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='https://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>

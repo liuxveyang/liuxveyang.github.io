@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
+    <link rel="stylesheet" href="https://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='https://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='https://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxveyang.github.io/img/header.jpg')
+  style="background:url('https://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
+    <a class="site-title" href="https://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,35 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/hdu1754-i-hate-it--hdu1166-%E6%95%8C%E5%85%B5%E5%B8%83%E9%98%B5-%E7%BA%BF%E6%AE%B5%E6%A0%91%E5%A4%8D%E4%B9%A0/"> hdu1754 I Hate It &amp;&amp; hdu1166 敌兵布阵 ——线段树复习
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 23, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/hdu">Hdu</a>
-
-    <a class="tag" href="http://liuxveyang.github.io/tags/data-structure">Data Structure</a>
-
-
-      
-      
-</div>
-
-  题目链接： http://acm.hdu.edu.cn/showproblem.php?pid=1754　 http://acm.hdu.edu.cn/showproblem.php?pid=1166 都是最基础的线段树，考的知识点就是点更新，区间求和，区间求最大值。再次学线段树，感觉理解加深了一些。 但是写的时候还是会出现各种奇葩的错误。唉。 hdu1754
-#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;map&gt; #include &lt;set&gt; #include &lt;vector&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; const int MAX = 200000+10; int gra[MAX&lt;&lt;2], m , n; void pushup(int rt) { gra[rt] = max(gra[rt&lt;&lt;1], gra[rt&lt;&lt;1|1]); } void build(int l, int r, int rt) { if (l == r) { scanf(&quot;%d&quot;, &amp;gra[rt]); return; } int m = (l + r) &gt;&gt; 1; build(lson); build(rson); pushup(rt); } void update(int p, int k, int l, int r, int rt) { if (l == r) { gra[rt] = k; return; } int m = (l + r) &gt;&gt; 1; if (p &lt;= m) update(p, k, lson); else update(p, k, rson); pushup(rt); } int query(int L, int R, int l, int r, int rt) { if (L &lt;= l &amp;&amp; R &gt;= r) { return gra[rt]; } int m = (l + r) &gt;&gt; 1, ret = 0; if (L &lt;= m) ret = max(ret, query(L, R, lson)); if (R &gt; m) ret = max(ret, query(L, R, rson)); return ret; } int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;hdu1754.
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/hdu1754-i-hate-it--hdu1166-%E6%95%8C%E5%85%B5%E5%B8%83%E9%98%B5-%E7%BA%BF%E6%AE%B5%E6%A0%91%E5%A4%8D%E4%B9%A0/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/poj2478-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> poj2478 ——欧拉函数入门题
+    <a href="https://liuxveyang.github.io/posts/poj2407-relatives-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> poj2407 Relatives ——欧拉函数入门题
 
  </a>
   </h1>
@@ -107,36 +79,9 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/poj">POJ</a>
 
-    <a class="tag" href="http://liuxveyang.github.io/tags/math">Math</a>
-
-
-      
-      
-</div>
-
-  题目链接：http://poj.org/problem?id=2478 题目大意： 给你一个数列f(N)，这个数列是由一系列不能约分的分数 a / b (0 &lt; a &lt; b &lt;= n 且 (a,b) = 1)按照递增的顺序排列而成的。输入一个N，求这个数列中元素的个数。 题目思路： 因为题目只需要求出元素的个数，所以，把分母相同的放在一起，然后就发现规律了，其实就是求从2到 n 的欧拉函数的和。范围只有10^6，可以打表预处理。思路很清晰。因为要反复用欧拉函数，所以比较快的方法是用递推的方法求。 for (i = 1; i &lt;= maxn; ++i) f[i] = i; for (i = 2; i &lt;= maxn; i+=2) f[i] /= 2; for (i = 3; i &lt;= maxn; i+=2){ if (f[i] == i){ for (j = i; j &lt;= maxn; j+=i){ f[j] = f[j] / i * (i - 1); } } }  　这个方法和筛法求素数比较类似，貌似就是那个思想。模拟一下什么就懂了。这里也用到了欧拉函数的性质：φ(n) = n * (1 - 1/p1) * (1 - 1/p2) * …… * (1 - 1/pk)。
-  
-  <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/poj2478-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxveyang.github.io/posts/poj2407-relatives-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> poj2407 Relatives ——欧拉函数入门题
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 22, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
-
-    <a class="tag" href="http://liuxveyang.github.io/tags/math">Math</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/math">Math</a>
 
 
       
@@ -146,13 +91,13 @@
   题目链接：http://poj.org/problem?id=2407 题目大意： 这个题目就是欧拉函数的定义，求一个数字的欧拉函数。 题目思路： 用公式：φ(n) = n * (1-1/p1) * (1-1/p2) * …… * (1-1/pk)。
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/poj2407-relatives-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/poj2407-relatives-%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
 <article>
   <h1>
-    <a href="http://liuxveyang.github.io/posts/poj2480-longges-problem-%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> poj2480 Longge&#39;s problem ——积性函数入门题
+    <a href="https://liuxveyang.github.io/posts/poj2480-longges-problem-%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> poj2480 Longge&#39;s problem ——积性函数入门题
 
  </a>
   </h1>
@@ -161,9 +106,9 @@
       
       
       
-    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/poj">POJ</a>
 
-    <a class="tag" href="http://liuxveyang.github.io/tags/math">Math</a>
+    <a class="tag" href="https://liuxveyang.github.io/tags/math">Math</a>
 
 
       
@@ -173,7 +118,54 @@
   题目链接：http://poj.org/problem?id=2480 题目大意： 给定一个数字N，求∑gcd(i, N) 1&lt;=i &lt;=N 的值。 题目思路： x是一个数字，m与n互素，则gcd(x,m*n) = gcd(x, m) * gcd(x, n) 令g(y) = gcd(x, y) 那么g(y)是一个积性函数。令f(N) = ∑gcd(i, N) 满足gcd(x, n) = 1 的个数是欧拉函数φ(n)，那么可以知道，满足gcd(x, n) = p 的个数可以这么求：x 和 n 同时除以 p ，那么gcd(x/p, n/p) = 1 ，那么个数就是φ(n/p)。 分解N = p1^a1 * p2^a2 * …… *pn^an ，则f(N) = f(p1^a1 * p2^a2 * …… *pn^an) = f(p1^a1) * f(p2^a2) * …… * f(pn^an)； 可以枚举pi^ai的因数，对于f(pi^ai) = 1 * φ(pi^ai) + pi * φ(pi^(ai-1)) + pi^2 * φ(pi^(ai-2)) + …… + pi^(ai-1) * φ(pi) + pi^ai * φ(1)； 根据φ(pi^ai) = pi^ai - pi^(ai-1)，那么可以化简上面的式子：f(pi^ai) = ai * pi^ai + ai * pi^(ai-1) + pi^ai = pi^ai * (ai + ai/pi + 1)； 所以，f(N) = N * (a1 + a1/p1 + 1) * (a2 + a2/p2 + 1) * …… * (an + an/pn + 1)。 这题当然不是自己想出来的，但是学习了一下积性函数，看的神牛的解题代码：http://hi.
   
   <br />
-  <a class="read-more" href="http://liuxveyang.github.io/posts/poj2480-longges-problem-%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
+  <a class="read-more" href="https://liuxveyang.github.io/posts/poj2480-longges-problem-%E7%A7%AF%E6%80%A7%E5%87%BD%E6%95%B0%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/2013%E5%B9%B44%E6%9C%8821%E6%97%A5-%E9%98%B4/"> 2013年4月21日 阴
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 21, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/run">run</a>
+
+
+      
+      
+</div>
+
+  19日 晚上挑战赛，输了，回宿舍很晚了，没去跑步。 20日 今天状态不是很好，中途P3还没电了……虽然跑得很慢，但还是跑完全程了~ 21日 晚上校队讨论，回去10点多了，没去跑步。今天上午上西班牙语选修课，很有意思~中南赛没能去，唉。以后挑战赛坚决不能输！
+  
+</article>
+
+<article>
+  <h1>
+    <a href="https://liuxveyang.github.io/posts/uestc1824-judgment-day-%E6%AF%94%E8%B5%9B%E6%AE%8B%E7%95%99%E9%A2%98/"> uestc1824 Judgment Day ——比赛残留题
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 20, 2013
+      
+      
+      
+    <a class="tag" href="https://liuxveyang.github.io/tags/uestc">uestc</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://www.acm.uestc.edu.cn/problem.php?pid=1824 题目大意： 给一个大的字符串，给一个数字n，然后给出n个小的字符串，在大的字符串里面每个字母只能选一次，问最多可以组成多少个小的字符串。小的字符串最多有10个，每个小字符串和大字符串长度最多10000。 题目思路： 因为最多有10个小的字符串，从10个里面选，最多有1024种选法。因为字符串只包含26个小写字母，可以统计每个小字符串里面的每个小写字母的个数，这样，复杂度大约在10×26×1024,是10^5的范围，可以枚举。 比如对于n个字符串，最多有1&lt;&lt;n种，用 x 从1枚举到1&lt;&lt;n - 1，然后用 j 从 0 枚举到n-1，用 1 &lt;&lt; j 和 x 相与，如果为1,则 j +1 表示第 j + 1 个人被选上了，判断它是不是能被选上，如果能被选上，那么 cnt++，再和max相比较，最后得到max。
+  
+  <br />
+  <a class="read-more" href="https://liuxveyang.github.io/posts/uestc1824-judgment-day-%E6%AF%94%E8%B5%9B%E6%AE%8B%E7%95%99%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
@@ -217,7 +209,7 @@
             
           
           <li>
-            <a href="http://liuxveyang.github.io/index.xml">
+            <a href="https://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -250,7 +242,7 @@
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="https://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -262,31 +254,31 @@
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="https://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="https://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="https://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxveyang.github.io/posts/clustering/">
+        <a href="https://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -314,8 +306,6 @@
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
-    
-    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -462,7 +452,7 @@
 
     
 
-    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='https://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>

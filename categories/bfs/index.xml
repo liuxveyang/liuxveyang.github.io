@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bfs on LXY Site</title>
-    <link>http://liuxveyang.github.io/categories/bfs/</link>
+    <link>https://liuxveyang.github.io/categories/bfs/</link>
     <description>Recent content in Bfs on LXY Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright &amp;copy; 2018 (LXY). All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 17 May 2017 00:06:00 +0800</lastBuildDate>
     
-	<atom:link href="http://liuxveyang.github.io/categories/bfs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liuxveyang.github.io/categories/bfs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Checking whether a Graph is Bipartite</title>
-      <link>http://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</link>
+      <link>https://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</link>
       <pubDate>Wed, 17 May 2017 00:06:00 +0800</pubDate>
       
-      <guid>http://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</guid>
+      <guid>https://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</guid>
       <description>题目链接：pdf
 题目给一个无向图，判定这个图是否是二分图。
 所谓二分图就是，用可以两种颜色给这个图的所有节点染色，并且满足相邻两个点颜色不同。
@@ -28,10 +28,10 @@
     
     <item>
       <title>Computing the Minimum Number of Flight Segments</title>
-      <link>http://liuxveyang.github.io/posts/computing-minimum-number-of-flight-segments/</link>
+      <link>https://liuxveyang.github.io/posts/computing-minimum-number-of-flight-segments/</link>
       <pubDate>Tue, 16 May 2017 23:57:39 +0800</pubDate>
       
-      <guid>http://liuxveyang.github.io/posts/computing-minimum-number-of-flight-segments/</guid>
+      <guid>https://liuxveyang.github.io/posts/computing-minimum-number-of-flight-segments/</guid>
       <description>题目链接：pdf
 给一个无向图，一个起点，一个终点，求从起点到终点的路径的边数的最小值。
 就是一遍BFS。

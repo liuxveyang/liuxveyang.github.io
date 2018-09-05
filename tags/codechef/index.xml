@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codechef on LXY Site</title>
-    <link>http://liuxveyang.github.io/tags/codechef/</link>
+    <link>https://liuxveyang.github.io/tags/codechef/</link>
     <description>Recent content in Codechef on LXY Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright &amp;copy; 2018 (LXY). All Rights Reserved.</copyright>
     <lastBuildDate>Mon, 25 Jul 2016 22:40:35 +0000</lastBuildDate>
     
-	<atom:link href="http://liuxveyang.github.io/tags/codechef/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liuxveyang.github.io/tags/codechef/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>segment tree, lazy propagation, codechef: Flipping Coins</title>
-      <link>http://liuxveyang.github.io/posts/codechef-flipping-coins/</link>
+      <link>https://liuxveyang.github.io/posts/codechef-flipping-coins/</link>
       <pubDate>Mon, 25 Jul 2016 22:40:35 +0000</pubDate>
       
-      <guid>http://liuxveyang.github.io/posts/codechef-flipping-coins/</guid>
+      <guid>https://liuxveyang.github.io/posts/codechef-flipping-coins/</guid>
       <description>Problem Link
 平常的线段树区间更新、区间查询加上懒惰更新
 // 2016/07/24 22:01:19 PM // Sabastian #include &amp;lt;iostream&amp;gt; #include &amp;lt;math.</description>
