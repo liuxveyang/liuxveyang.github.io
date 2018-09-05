@@ -38,8 +38,7 @@
       <pubDate>Sat, 24 Nov 2012 19:56:00 +0000</pubDate>
       
       <guid>https://liuxveyang.github.io/posts/erlang_1/</guid>
-      <description>1.在终端运行的时候末尾要输入 . 号 2.数学运算符：
- 加法 正号 减法 负号 乘法 / 浮点除法 div 整数除法 rem 整数取余 3.</description>
+      <description>1.在终端运行的时候末尾要输入 . 号 2.数学运算符： + 加法 正号 - 减法 负号 * 乘法 / 浮点除法 div 整数除法 rem 整数取余 3.</description>
     </item>
     
   </channel>

@@ -28,7 +28,8 @@
       <pubDate>Sun, 17 Aug 2014 23:55:06 +0000</pubDate>
       
       <guid>https://liuxveyang.github.io/posts/some-simple-syntax-on-lisp-and-perl/</guid>
-      <description>I am learning perl and common lisp these days.</description>
+      <description>I am learning perl and common lisp these days.
+I think perl&amp;rsquo;s syntax is beautiful and simple and I am getting used to it.</description>
     </item>
     
     <item>
@@ -46,7 +47,8 @@
       <pubDate>Tue, 27 May 2014 23:51:33 +0000</pubDate>
       
       <guid>https://liuxveyang.github.io/posts/chapter-5/</guid>
-      <description>Optional Parameters we can use optional arguments in a function, such as:</description>
+      <description>##Optional Parameters
+we can use optional arguments in a function, such as:</description>
     </item>
     
   </channel>
