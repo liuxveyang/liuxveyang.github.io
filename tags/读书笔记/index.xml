@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读书笔记 on LXY Site</title>
-    <link>http://liuxueyang.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+    <link>http://liuxveyang.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 读书笔记 on LXY Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright &amp;copy; 2018 (LXY). All Rights Reserved.</copyright>
     <lastBuildDate>Mon, 14 May 2018 11:26:10 +0800</lastBuildDate>
     
-	<atom:link href="http://liuxueyang.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://liuxveyang.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>读书笔记6「技术类」</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/</link>
       <pubDate>Mon, 14 May 2018 11:26:10 +0800</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/</guid>
       <description>总结一下最近正在读的技术书吧。
 C++大学教程（第九版） 这本快读完了，很基础，相当于把这门语言简单系统地复习了一遍。书里面的例子很详细，程序风格很清晰，只不过有些相对高级的知识点解释地不是特别透彻，还是需要配合别的书看。
 C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非常详细，毕竟 C++ 作者的作品。我只看了前面几章，语言细节真的是非常多，感觉读起来有点儿枯燥，不过有点儿意思。</description>
@@ -25,10 +25,10 @@ C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非�
     
     <item>
       <title>读书笔记5</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</link>
       <pubDate>Sun, 29 Apr 2018 10:45:16 +0800</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</guid>
       <description>整理博客的时候，发现五年前竟然写过四篇读书笔记的博客来着，那就接着更一篇吧。
 最近还是看了一些书，先把名字列出来吧，随后再更新（肚子饿了
 《我是猫》——夏目漱石 很有趣的一本书。
@@ -39,10 +39,10 @@ C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非�
     
     <item>
       <title>读书笔记4</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
       <pubDate>Thu, 05 Sep 2013 00:21:00 +0000</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
       <description>今天一天看完一本推理小说w_w
 《预知梦》 作者：东野圭吾 ——推理小说
 讲了5个故事：
@@ -51,10 +51,10 @@ C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非�
     
     <item>
       <title>读书笔记3</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
       <pubDate>Tue, 03 Sep 2013 23:04:00 +0000</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
       <description>这段时间懒得写博客了。
 还是写一点吧。
 最近看完的书：
@@ -66,10 +66,10 @@ C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非�
     
     <item>
       <title>读书笔记2</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
       <pubDate>Thu, 22 Aug 2013 07:59:00 +0000</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
       <description>从17日下午到21日中午，用三天多的时间第一次完整地看完了《TOUCH》這部經典漫畫，看到结尾的时候，有点后悔了，其实，我应该再看慢一点的，经典作品，这么快就看完总觉得很可惜啊o(╯□╰)o。
 26卷，每卷185页左右，总共大約4810页，照这个节奏，如果kpw不是触屏的，按键会不会残了！？
 只是柏叶教练的一句话到现在还记忆犹新：我喜欢夏天啊。
@@ -84,10 +84,10 @@ C++ 程序设计语言（第 1 - 3 部分）（原书第 4 版） 这本书非�
     
     <item>
       <title>读书笔记1</title>
-      <link>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <link>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Sun, 18 Aug 2013 14:09:00 +0000</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <guid>http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
       <description>不想说什么了，今天一大早来机房，就为了写这两天的读书笔记，做点摘抄什么的，马不停蹄，人不停爪地敲了一个多小时，手都抽筋了，写完的时候，添加标签的时候，界面一刷新，然后什么都没有了！有想砸电脑的冲动啊。博客园的后台编辑器支持自动保存的，不过只支持IE9内核以上的和chrome以及firefox的浏览器，好吧。算我倒霉了。还是简要记录一下吧，早上写的一堆白写了。不忍心。
 8月16日中午kpw到货，激动啊。一直很后悔的就是大学里面没有怎么读书，很多想读的书都没有看过，所以剩下的时间里多看看书吧。
 8月16日

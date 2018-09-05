@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bipartite on LXY Site</title>
-    <link>http://liuxueyang.github.io/categories/bipartite/</link>
+    <link>http://liuxveyang.github.io/categories/bipartite/</link>
     <description>Recent content in Bipartite on LXY Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright &amp;copy; 2018 (LXY). All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 17 May 2017 00:06:00 +0800</lastBuildDate>
     
-	<atom:link href="http://liuxueyang.github.io/categories/bipartite/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://liuxveyang.github.io/categories/bipartite/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Checking whether a Graph is Bipartite</title>
-      <link>http://liuxueyang.github.io/posts/checking-whether-a-graph-is-bipartite/</link>
+      <link>http://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</link>
       <pubDate>Wed, 17 May 2017 00:06:00 +0800</pubDate>
       
-      <guid>http://liuxueyang.github.io/posts/checking-whether-a-graph-is-bipartite/</guid>
+      <guid>http://liuxveyang.github.io/posts/checking-whether-a-graph-is-bipartite/</guid>
       <description>题目链接：pdf
 题目给一个无向图，判定这个图是否是二分图。
 所谓二分图就是，用可以两种颜色给这个图的所有节点染色，并且满足相邻两个点颜色不同。

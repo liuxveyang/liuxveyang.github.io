@@ -8,10 +8,10 @@
     
     <meta content="LXY Site" property="og:title">
     <title>LXY Site</title>
-    <link rel="stylesheet" href="http://liuxueyang.github.io/css/main.css" >
-    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxueyang.github.io/index.xml' />
+    <link rel="stylesheet" href="http://liuxveyang.github.io/css/main.css" >
+    <link rel="alternate" type="application/rss+xml" title="LXY Site" href='http://liuxveyang.github.io/index.xml' />
 
-    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxueyang.github.io/favicon.ico' />
+    <link rel="icon" sizes="16x16 32x32 48x48" href='http://liuxveyang.github.io/favicon.ico' />
   
     
 
@@ -24,11 +24,11 @@
  
 
 <header class="site-header" 
-  style="background:url('http://liuxueyang.github.io/img/header.jpg')
+  style="background:url('http://liuxveyang.github.io/img/header.jpg')
   top center no-repeat fixed ; background-size:100% auto; " >
 
   
-    <a class="site-title" href="http://liuxueyang.github.io">LXY Site</a>
+    <a class="site-title" href="http://liuxveyang.github.io">LXY Site</a>
 
     
     <nav class="site-nav">
@@ -70,7 +70,7 @@
 
 <article>
   <h1>
-    <a href="http://liuxueyang.github.io/posts/poj1002-487-3279-%E6%B0%B4%E9%A2%98/"> poj1002 487-3279 ——水题
+    <a href="http://liuxveyang.github.io/posts/poj1298-the-hardest-problem-ever-%E6%B0%B4%E9%A2%98/"> poj1298 The Hardest Problem Ever ——水题
 
  </a>
   </h1>
@@ -79,7 +79,59 @@
       
       
       
-    <a class="tag" href="http://liuxueyang.github.io/tags/poj">POJ</a>
+    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://poj.org/problem?id=1298 题目大意： 字母映射。太简单了。不说了。感脚都不好意思在博客里面写……水题一次最多切3道，再多就没意思了……也没有意义…… 题目思路： 为了学习ＳＴＬ，用的ｍａｐ。
+#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;set&gt; #include &lt;map&gt; #include &lt;vector&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; map&lt;char, char&gt; mymap; string a, b, c; char aa[10000]; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;1298.
+  
+  <br />
+  <a class="read-more" href="http://liuxveyang.github.io/posts/poj1298-the-hardest-problem-ever-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="http://liuxveyang.github.io/posts/poj3087-shufflem-up-%E6%B0%B4%E9%A2%98/"> poj3087 Shuffle&#39;m Up ——水题
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 19, 2013
+      
+      
+      
+    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
+
+
+      
+      
+</div>
+
+  题目链接：http://poj.org/problem?id=3087 题目大意： 给定长度都为Ｃ两个字符串，Ｓ１，Ｓ2，和一个要求的结果字符串ＳＳ。先把Ｓ２的最下面一张牌放在最下面，然后Ｓ１，Ｓ２交错的叠放，得到Ｓ，再把Ｓ最下面的Ｃ个字符赋值给Ｓ１，把剩下的赋值给Ｓ２，再次重复上面的过程。最后求出要得到ＳＳ，需要几步这样的过程。 题目思路： 开始以为是用ＳＴＬ的栈，后来才发现根本用不到，直接用字符串模拟就可以了。为了学习一下ＳＴＬ，用的是ｓｔｒｉｎｇ类。只要比较当前得到的字符串和要得到的字符串是不是相等就可以了。如果永远也得不到要得到的字符串，那么就一定存在Ｓ１和Ｓ２和原来的Ｓ１和Ｓ２都对应相等，其实这道题目的难点就在这里。
+#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;set&gt; #include &lt;map&gt; #include &lt;vector&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;3087.
+  
+  <br />
+  <a class="read-more" href="http://liuxveyang.github.io/posts/poj3087-shufflem-up-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
+  
+</article>
+
+<article>
+  <h1>
+    <a href="http://liuxveyang.github.io/posts/poj1002-487-3279-%E6%B0%B4%E9%A2%98/"> poj1002 487-3279 ——水题
+
+ </a>
+  </h1>
+  <div class="article-meta">
+      Apr 19, 2013
+      
+      
+      
+    <a class="tag" href="http://liuxveyang.github.io/tags/poj">POJ</a>
 
 
       
@@ -90,13 +142,13 @@
 #include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;vector&gt; #include &lt;map&gt; #include &lt;set&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MINN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int arr[100000+10]; map&lt;char, int&gt; ma; char pri[10]; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;poj1002.
   
   <br />
-  <a class="read-more" href="http://liuxueyang.github.io/posts/poj1002-487-3279-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
+  <a class="read-more" href="http://liuxveyang.github.io/posts/poj1002-487-3279-%E6%B0%B4%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
 <article>
   <h1>
-    <a href="http://liuxueyang.github.io/posts/2013%E5%B9%B44%E6%9C%8818%E6%97%A5-%E9%9B%A8/"> 2013年4月18日 雨
+    <a href="http://liuxveyang.github.io/posts/2013%E5%B9%B44%E6%9C%8818%E6%97%A5-%E9%9B%A8/"> 2013年4月18日 雨
 
  </a>
   </h1>
@@ -105,7 +157,7 @@
       
       
       
-    <a class="tag" href="http://liuxueyang.github.io/tags/run">run</a>
+    <a class="tag" href="http://liuxveyang.github.io/tags/run">run</a>
 
 
       
@@ -113,54 +165,6 @@
 </div>
 
   今天跑步状态超好，呼吸，速度都控制得很好，不知不觉就跑完全程了，还有一种意犹未尽的感觉。O(∩_∩)O哈哈~ 刚刚发现，其实自己每天的跑步路程也不过5200米，赶脚弱爆了……~唉，继续加油吧~~
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxueyang.github.io/posts/2013%E5%B9%B44%E6%9C%8817%E6%97%A5-%E6%99%B4/"> 2013年4月17日 晴
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 17, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxueyang.github.io/tags/run">run</a>
-
-
-      
-      
-</div>
-
-  今天跑步状态不错。起跑的时候正好遇到两个哥们在一起跑，我去……还跑得挺快，遇到高手了，但是正好也有了动力，紧跟着跑，状态还不错，跑得挺爽，好久没这么有激情地跑过了，然后不到一半的时候，一哥们干脆停下来了……挺悲剧的，唉，只要一停下来，就基本跑不起来了，然后就剩下我跟另一个人跑，那人很强悍，以那个速度，一直那么跑，不带减速的，然后我心理想：这回遇到真正的高手了。他同时也在加速，我有点儿撑不住，但是还是尽力坚持，因为我知道，只要距离拉远了，再跟上就不可能了，一直这么坚持了一段时间，心里想着，当一个人的平均速度和别人本来就有差距的时候，注定是没有赢得希望的，因为人家以正常的速度跑，习惯了，你以人家的速度跑，一般很快就到了极点，好的情况就是距离被拉远，自己速度放慢，调整自己，直到平稳下来，以自己正常的速度跑；比较悲剧的情况是，到了自己的极点，透支了体力，干脆停下来了。但我还是坚持跟上，不让自己和对方的距离拉大，努力和对方的距离，不超过两三秒的样子，再到后来，那哥们停下来了，我去……这……唉，悲剧了，然后我就可耻地轻松地超过了人家o(╯□╰)o 其实那人挺强的，以他那个速度，我不可能像他那样坚持那么长的距离，但是我还是坚持下来了，运气好~O(∩_∩)O哈哈~ 然后我就继续以那个速度跑到了终点，太爽了，好久不这么畅快地跑了，稍微休息一下，原路返回，显然没有那么多体力了，所以就以超慢的速度，跑回来了，当做调整一下。 其实，在比赛的过程中，尤其是有一个人快要超过你的时候，很多人都是适当加快速度，给对方以心理压力，但是，过度逞强，完全打乱了自己的节奏就得不偿失了，最终很可能被别人超过，甚至自己体力透支，不得不停下来，当你因为别人改变自己的节奏，一开始你就输了，即使最终赢了，也没有发挥出自己最好的状态。跑步的过程中，很大一部分比的是心理和意志力，如果实力和体力相差不大的话。 其实，有一个比你强的人在你前面，确实能让跑步的效果更好，但是，更多的时候是自己一个人跑，当没有别人带着你的时候，你要学会自己调整，呼吸和心态。毕竟，跑步是自己的事情，没有人能帮你。别的事情也一样…… 最近事情超多，比较忙，甚至写程序的时间也很少了，只有提高自己的效率，写程序就要认真写，做作业就要全神贯注地做，不能三心二意，平时的零碎时间可以想想算法，认真体会算法的思想，尤其是，养成一开始就养成不依赖模板的习惯，自己手敲，多敲几遍，每次敲的时候都会有不同的错误，但是在这个过程中，也加深了自己对算法的理解。一道题目不会做，不要急着去翻人家的解题报告，自己多想想，或者有思路了，代码敲出来了，但是有怎么也找不出来的bug，这个时候可以先放一放，过几天再拿出来敲一遍，或许就豁然开朗了，很多问题都是自己当时陷入了思维误区，或者长时间想一个问题，把自己搞糊涂了，过一段时间再想，再分析一下就感觉思路更清晰了。不要一个bug找好久，效率很低，也耽误了学习新知识的时间。同时也注意多培养自己的代码能力，一道题目好不容易有想法了，但是敲出来的代码就是有各种bug，这就反映出了自己的代码能力和代码习惯，有的人代码习惯比较好，虽然敲得比较慢，但是能够1A，这种比我这种很快敲出来，但bug无数的好多了……我去…… 说实话，很惊讶，我们队竟然有机会去南京的邀请赛……RP值爆发了，好有压力，所以，什么也不想了，加油!
-  
-</article>
-
-<article>
-  <h1>
-    <a href="http://liuxueyang.github.io/posts/snakes--ladders-bfs%E5%85%A5%E9%97%A8%E9%A2%98/"> Snakes &amp; Ladders ——BFS入门题
-
- </a>
-  </h1>
-  <div class="article-meta">
-      Apr 17, 2013
-      
-      
-      
-    <a class="tag" href="http://liuxueyang.github.io/tags/bfs">BFS</a>
-
-
-      
-      
-</div>
-
-  题目链接：https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=116&amp;page=show_problem&amp;problem=555 题目大意： 给一个棋盘，分布着蛇和梯子，投骰子确定走的步数，问最少投几次骰子可以到达终点，到达蛇头就回到蛇尾，到达梯子底部就上升到梯子顶部。 思路： BFS，到达每一个节点都可以扩展出6个节点，判断终点是不是到达过，如果到达过，退出循环。 这题WA了……
-#include &lt;iostream&gt; #include &lt;cstdio&gt; #include &lt;cstdlib&gt; #include &lt;cstring&gt; #include &lt;cctype&gt; #include &lt;stack&gt; #include &lt;queue&gt; #include &lt;map&gt; #include &lt;set&gt; #include &lt;vector&gt; #include &lt;cmath&gt; #include &lt;algorithm&gt; #define lson l, m, rt&lt;&lt;1 #define rson m+1, r, rt&lt;&lt;1|1 using namespace std; typedef long long int LL; const int MAXN = 0x3f3f3f3f; const int MIN = -0x3f3f3f3f; const double eps = 1e-9; const int dir[8][2] = {{0,1},{1,0},{0,-1},{-1,0},{-1,1}, {1,1},{1,-1},{-1,-1}}; int D, N , S, L, a[23*23], b[23*23]; typedef struct La{ int start, end; }La; La la[120]; int main(void){ #ifndef ONLINE_JUDGE freopen(&quot;arb.
-  
-  <br />
-  <a class="read-more" href="http://liuxueyang.github.io/posts/snakes--ladders-bfs%E5%85%A5%E9%97%A8%E9%A2%98/"> [Read more...] </a>
   
 </article>
 
@@ -199,12 +203,12 @@
             <span class="social-icon">
               <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 1504v-768q-32 36-69 66-268 206-426 338-51 43-83 67t-86.5 48.5-102.5 24.5h-2q-48 0-102.5-24.5t-86.5-48.5-83-67q-158-132-426-338-37-30-69-66v768q0 13 9.5 22.5t22.5 9.5h1472q13 0 22.5-9.5t9.5-22.5zm0-1051v-24.5l-.5-13-3-12.5-5.5-9-9-7.5-14-2.5h-1472q-13 0-22.5 9.5t-9.5 22.5q0 168 147 284 193 152 401 317 6 5 35 29.5t46 37.5 44.5 31.5 50.5 27.5 43 9h2q20 0 43-9t50.5-27.5 44.5-31.5 46-37.5 35-29.5q208-165 401-317 54-43 100.5-115.5t46.5-131.5zm128-37v1088q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-1088q0-66 47-113t113-47h1472q66 0 113 47t47 113z"/></svg>
             </span>
-            <a href="mailto:liuxueyang457@163.com">liuxueyang457@163.com</a>
+            <a href="mailto:liuxueyang457@gmail.com">liuxueyang457@gmail.com</a>
           </li>
             
           
           <li>
-            <a href="http://liuxueyang.github.io/index.xml">
+            <a href="http://liuxveyang.github.io/index.xml">
               <span class="social-icon ">
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M640 1280q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm351 94q-13-232-177-396t-396-177q-14-1-24 9t-10 23v128q0 13 8.5 22t21.5 10q154 11 264 121t121 264q1 13 10 21.5t22 8.5h128q13 0 23-10t9-24zm384 1q-5-154-56-297.5t-139.5-260-205-205-260-139.5-297.5-56q-14-1-23 9-10 10-10 23v128q0 13 9 22t22 10q204 7 378 111.5t278.5 278.5 111.5 378q1 13 10 22t22 9h128q13 0 23-10 11-9 9-23zm289-959v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
               </span>
@@ -237,7 +241,7 @@
           <span class="social-icon ">
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 1248v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192h-512v192h96q40 0 68 28t28 68v320q0 40-28 68t-68 28h-320q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h96v-192q0-52 38-90t90-38h512v-192h-96q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h320q40 0 68 28t28 68v320q0 40-28 68t-68 28h-96v192h512q52 0 90 38t38 90v192h96q40 0 68 28t28 68z"/></svg>
           </span>
-          <a href="http://liuxueyang.github.io/sitemap.xml">sitemap.xml</a>
+          <a href="http://liuxveyang.github.io/sitemap.xml">sitemap.xml</a>
         </li>
       </ul>
 
@@ -249,31 +253,31 @@
       <ul class="footer-latest-posts"> 
       
       <li>
-        <a href="http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
+        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06%E6%8A%80%E6%9C%AF%E7%B1%BB/">
           读书笔记6「技术类」
         </a>
       </li>
       
       <li>
-        <a href="http://liuxueyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
+        <a href="http://liuxveyang.github.io/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/">
           读书笔记5
         </a>
       </li>
       
       <li>
-        <a href="http://liuxueyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
+        <a href="http://liuxveyang.github.io/posts/%E6%95%B4%E7%90%86%E5%8D%9A%E5%AE%A2/">
           整理博客
         </a>
       </li>
       
       <li>
-        <a href="http://liuxueyang.github.io/posts/2017-12-23-summary-for-2017/">
+        <a href="http://liuxveyang.github.io/posts/2017-12-23-summary-for-2017/">
           2017 年结束了
         </a>
       </li>
       
       <li>
-        <a href="http://liuxueyang.github.io/posts/clustering/">
+        <a href="http://liuxveyang.github.io/posts/clustering/">
           Clustering
         </a>
       </li>
@@ -301,6 +305,8 @@
     <a class="category" href="/categories/graph">graph</a>
     
     <a class="category" href="/categories/haskell">haskell</a>
+    
+    <a class="category" href="/categories/hugo">hugo</a>
     
     <a class="category" href="/categories/kruskal">kruskal</a>
     
@@ -447,7 +453,7 @@
 
     
 
-    <script type="text/javascript" src='http://liuxueyang.github.io/js/main.js'></script>
+    <script type="text/javascript" src='http://liuxveyang.github.io/js/main.js'></script>
 
   </body>
 </html>
